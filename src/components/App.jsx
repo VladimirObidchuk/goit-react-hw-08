@@ -1,9 +1,7 @@
 import "modern-normalize";
-// import css from "./App.module.css";
 
 import { useDispatch, useSelector } from "react-redux";
 import { lazy, Suspense, useEffect } from "react";
-import { AppBar } from "./AppBar/AppBar";
 import { Route, Routes } from "react-router-dom";
 import RestrictedRoute from "./RestrictedRoute";
 import PrivateRoute from "./PrivateRoute";
@@ -11,10 +9,10 @@ import Layout from "./Layout/Layout";
 import { selectIsRefreshing } from "../redux/auth/selectors";
 import { refReshUser } from "../redux/auth/operations";
 
-const ContactPage = lazy(() => import("../page/ContactPage/ContactPage"));
-const HomePage = lazy(() => import("../page/HomePage/HomePage"));
-const RegisterPage = lazy(() => import("../page/RegisterPage/RegisterPage"));
-const LoginPage = lazy(() => import("../page/LoginPage/LoginPage"));
+const ContactPage = lazy(() => import("../pages/ContactPage/ContactPage"));
+const HomePage = lazy(() => import("../pages/HomePage/HomePage"));
+const RegisterPage = lazy(() => import("../pages/RegisterPage/RegisterPage"));
+const LoginPage = lazy(() => import("../pages/LoginPage/LoginPage"));
 
 export default function App() {
   const dispatch = useDispatch();
