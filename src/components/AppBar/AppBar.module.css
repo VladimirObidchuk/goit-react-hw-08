@@ -1,0 +1,15 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+  padding-bottom: 10px;
+}
+
+.section {
+  display: grid;
+  gap: 4px;
+}

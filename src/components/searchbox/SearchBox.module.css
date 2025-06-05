@@ -1,0 +1,28 @@
+.seachContact {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+.input {
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+}
+.label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.icons {
+  font-size: 30px;
+}

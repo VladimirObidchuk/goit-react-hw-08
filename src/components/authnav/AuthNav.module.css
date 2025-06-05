@@ -1,0 +1,13 @@
+.authMenu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.link {
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+}
+.isActive {
+  color: #89be34;
+}

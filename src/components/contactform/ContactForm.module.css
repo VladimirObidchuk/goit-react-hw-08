@@ -1,0 +1,46 @@
+.addContact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 20px 16px;
+  margin-bottom: 20px;
+}
+.field {
+  width: 65%;
+  font-size: 20px;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: transparent;
+}
+.label:first-child span {
+  position: absolute;
+  bottom: -30px;
+  right: 33%;
+  transform: translate(40%, 0);
+}
+.label span {
+  position: absolute;
+  bottom: -30px;
+  right: 27%;
+  transform: translate(10%, 0);
+}
+.label {
+  width: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.btn {
+  color: #fff;
+  background-color: #85a8eb;
+}
+.btn:hover {
+  background-color: #4c6799;
+}
